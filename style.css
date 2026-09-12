@@ -38,3 +38,28 @@ footer {
     padding: 20px;
     width: 250px;
 }
+
+@media (max-width: 900px) {
+    main {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 550px) {
+    main {
+        padding: 0 15px;
+    }
+
+    .movie-list {
+        flex-direction: column;
+    }
+
+    .movie-block {
+        width: auto;
+    }
+
+    nav a {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
