@@ -30,6 +30,7 @@ footer {
 .movie-list {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .movie-block {
