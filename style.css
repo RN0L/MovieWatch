@@ -43,6 +43,46 @@ footer {
     border-radius: 8px;
     padding: 20px;
     width: 250px;
+    height: 300px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.minecraft {
+    background-image:
+        linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+        url("images/minecraft.jpg");
+}
+
+.spiderman {
+    background-image:
+        linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+        url("images/spiderman.jpg");
+}
+
+.forrest-gump {
+    background-image:
+        linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+        url("images/forrest-gump.jpg");
+}
+
+.titanic {
+    background-image:
+        linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+        url("images/titanic.jpg");
+}
+
+.obsession {
+    background-image:
+        linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+        url("images/obsession.jpg");
+}
+
+.odyssey {
+    background-image:
+        linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+        url("images/odyssey.jpg");
 }
 
 @media (max-width: 900px) {
