@@ -2,16 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #222222;
+    color: white;
 }
 
 header {
     padding: 20px;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #555555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav a {
     margin-right: 15px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -24,7 +29,7 @@ main {
 footer {
     margin-top: 40px;
     padding: 20px;
-    border-top: 1px solid #000000;
+    border-top: 1px solid #555555;
 }
 
 .movie-list {
@@ -34,7 +39,8 @@ footer {
 }
 
 .movie-block {
-    border: 1px solid #000000;
+    border: 1px solid #555555;
+    border-radius: 8px;
     padding: 20px;
     width: 250px;
 }
