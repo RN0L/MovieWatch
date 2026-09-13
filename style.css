@@ -1,23 +1,41 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Inter", Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #222222;
+    background-color: #111111;
     color: white;
+    line-height: 1.6;
 }
 
 header {
-    padding: 20px;
-    border-bottom: 1px solid #555555;
+    background-color: #111111;
+    border-bottom: 1px solid #333333;
+    padding: 16px 20px;
+}
+
+.header-inner {
+    max-width: 900px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+header h1 {
+    margin: 0;
+    color: #d4af37;
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
 nav a {
     margin-right: 15px;
-    color: rgb(255, 255, 255);
+    color: #cccccc;
     text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 main {
@@ -26,10 +44,43 @@ main {
     padding: 0 20px;
 }
 
+main h2 {
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-size: 34px;
+    letter-spacing: 1px;
+    line-height: 1.1;
+}
+
+main p {
+    color: #999999;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.hero {
+    background-image:
+        linear-gradient(to top, rgba(17, 17, 17, 0.9), rgba(17, 17, 17, 0.5)),
+        url("images/odyssey.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 54px;
+}
+
 footer {
     margin-top: 40px;
     padding: 20px;
-    border-top: 1px solid #555555;
+    border-top: 1px solid #333333;
+    text-align: center;
+    color: #888888;
+    font-size: 14px;
 }
 
 .movie-list {
@@ -39,7 +90,6 @@ footer {
 }
 
 .movie-block {
-    border: 1px solid #555555;
     border-radius: 8px;
     padding: 20px;
     width: 220px;
@@ -50,6 +100,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .movie-block h3 {
@@ -58,46 +109,46 @@ footer {
 
 .minecraft {
     background-image:
-        linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+        linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 50%),
         url("images/minecraft.jpg");
 }
 
 .spiderman {
     background-image:
-        linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+        linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 50%),
         url("images/spiderman.jpg");
 }
 
 .forrest-gump {
     background-image:
-        linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+        linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 50%),
         url("images/forrest-gump.jpg");
 }
 
 .titanic {
     background-image:
-        linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+        linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 50%),
         url("images/titanic.jpg");
 }
 
 .obsession {
     background-image:
-        linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+        linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 50%),
         url("images/obsession.jpg");
 }
 
 .odyssey {
     background-image:
-        linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+        linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 50%),
         url("images/odyssey.jpg");
 }
 
 .active {
-    color: #f5c518;
+    color: #d4af37;
 }
 
 nav a:hover {
-    color: #f5c518;
+    color: #d4af37;
 }
 
 @media (max-width: 900px) {
