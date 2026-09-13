@@ -42,11 +42,18 @@ footer {
     border: 1px solid #555555;
     border-radius: 8px;
     padding: 20px;
-    width: 250px;
-    height: 300px;
+    width: 220px;
+    height: 350px;
     color: white;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.movie-block h3 {
+    margin: 0;
 }
 
 .minecraft {
@@ -85,6 +92,14 @@ footer {
         url("images/odyssey.jpg");
 }
 
+.active {
+    color: #f5c518;
+}
+
+nav a:hover {
+    color: #f5c518;
+}
+
 @media (max-width: 900px) {
     main {
         padding: 0 30px;
@@ -102,6 +117,7 @@ footer {
 
     .movie-block {
         width: auto;
+        height: 470px;
     }
 
     nav a {
